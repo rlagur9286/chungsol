@@ -43,7 +43,7 @@ font-family: 'Raleway', sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
 /*
-font-family: 'Open Sans', sans-serif;
+font-family: 'NanumGothic', sans-serif;
 */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic);
@@ -191,12 +191,12 @@ input: -webkit-autofill:focus {
     font-size: 12px;
     padding-top: 2px;
     color: #646464;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #header .top_header .phone p {
     color: #646464;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
     padding-top: 1px;
     display: inline-block;
 }
@@ -291,7 +291,7 @@ input: -webkit-autofill:focus {
 }
 #slider .slider_text h3 {
     font-size: 45px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
     color: #fff;
 }
 #slider .slider_text p {
@@ -388,7 +388,7 @@ input: -webkit-autofill:focus {
 }
 .wel_header p {
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #welcome .single_item {
     padding-top: 30px;
@@ -420,7 +420,7 @@ input: -webkit-autofill:focus {
 #welcome .item_list p {
     font-size: 14px;
     color: #646464;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #welcome .item_list:hover .welcome_icon {
     background: #43a906;
@@ -446,7 +446,7 @@ input: -webkit-autofill:focus {
     font-weight: 700;
     color: #fff;
     padding-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #volunteer .volunteer_content h3 span {
     color: #43a906;
@@ -454,7 +454,7 @@ input: -webkit-autofill:focus {
 #volunteer .volunteer_content p {
     font-size: 14px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #volunteer .join_us {
     padding-top: 55px;
@@ -471,7 +471,7 @@ input: -webkit-autofill:focus {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 
 /*Portfolio*/
@@ -494,7 +494,7 @@ input: -webkit-autofill:focus {
     color: #393939;
     padding-bottom: 25px;
     padding-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 
 /*Customise Portfolio*/
@@ -593,7 +593,7 @@ section#counter {
 .counter_header p {
     font-size: 16px;
     padding-bottom: 60px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
     padding-top: 15px;
 }
 .counter_text {
@@ -625,7 +625,7 @@ section#counter {
     text-transform: uppercase;
     font-weight: 400;
     padding-top: 10px;
-    font-family: 'Nanum Pen Script', serif;
+    font-family: 'NanumGothic', serif;
     color: #ffffff;
     margin-top: 10px;
 }
@@ -652,7 +652,7 @@ section#counter {
 .event_header.text-center p {
     color: #393939;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #event .event_text {
     padding: 30px 30px 0;
@@ -683,7 +683,7 @@ section#counter {
     font-size: 14px;
     color: #646464;
     padding-bottom: 35px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #event a.event_btn {
     background: #101010;
@@ -693,7 +693,7 @@ section#counter {
     font-weight: 700;
     border-radius: 2px;
     transition: 0.7s ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #event a.event_btn:hover {
     background: #43a906;
@@ -715,7 +715,7 @@ section#counter {
     padding-top: 10px;
     font-size: 14px;
     color: #646464;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #event .event_news_img {
     padding-right: 10px;
@@ -747,7 +747,7 @@ section#counter {
 #testimonial .testimonial_header p {
     font-size: 16px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 
 /*Latest Blog*/
@@ -773,7 +773,7 @@ section#counter {
     padding-bottom: 45px;
     font-size: 16px;
     color: #646464;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #blog .single_blog_item {
     border: 1px solid #d1d3d1;
@@ -801,7 +801,7 @@ section#counter {
     padding-left: 5px;
     color: #aeadad;
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
     font-weight: 700;
 }
 #blog .blog_news .blog_img img {
@@ -912,7 +912,7 @@ input#subject{
     background: #d4d4d4;
     font-style: italic;
     color: #696969;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 li.fw-flash-message {
     color: red;
@@ -954,7 +954,7 @@ li.fw-flash-message {
     padding-left: 15px;
     color: #696969;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 .office_location i {
     padding-bottom: 15px;
@@ -973,7 +973,7 @@ li.fw-flash-message {
 .contact_area p {
     font-size: 16px;
     color: #646464;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #map {
     width: 100%;
@@ -1006,7 +1006,7 @@ li.fw-flash-message {
 #footer .designer a {
     font-size: 14px;
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
     padding-left: 3px;
 }
 
@@ -1142,7 +1142,7 @@ li.fw-flash-message {
     padding-left: 15px;
     color: #696969;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 
 #contact-us .form-group {
