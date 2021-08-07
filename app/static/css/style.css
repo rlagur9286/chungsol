@@ -625,7 +625,7 @@ section#counter {
     text-transform: uppercase;
     font-weight: 400;
     padding-top: 10px;
-    font-family: 'NanumGothic', serif;
+    font-family: 'Nanum Pen Script', serif;
     color: #ffffff;
     margin-top: 10px;
 }
@@ -683,7 +683,7 @@ section#counter {
     font-size: 14px;
     color: #646464;
     padding-bottom: 35px;
-    font-family: 'Nanum Pen Script', sans-serif;
+    font-family: 'NanumGothic', sans-serif;
 }
 #event a.event_btn {
     background: #101010;
