@@ -22,7 +22,6 @@ def render_page(request):
         try:
             img = Image.objects.get(title="main{}".format(idx))
             img = model_to_dict(img)
-            print(img["image"].filename)
         except ObjectDoesNotExist:
             img = None
         main_img_ist.append(img)
