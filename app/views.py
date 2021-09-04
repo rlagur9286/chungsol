@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 def render_page(request):
     main_img_ist = []
-    for idx in range(1, 4):
+    for idx in range(1, 5):
         try:
             img = Image.objects.get(title="main{}".format(idx))
             img = model_to_dict(img)

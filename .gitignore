@@ -4,6 +4,7 @@
 *.pyc
 __pycache__/
 local_settings.py
+.DS*
 # db.sqlite3
 media
 
