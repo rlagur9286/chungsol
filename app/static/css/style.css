@@ -545,7 +545,7 @@ input: -webkit-autofill:focus {
     opacity: 0;
     transition: 0.7s;
     font-size: 16px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'font-family: Do Hyeon', sans-serif;
     font-weight: 400;
 }
 #portfolio .notes .note:hover .img_overlay,
@@ -915,7 +915,7 @@ input#subject{
     font-family: 'NanumGothic', sans-serif;
 }
 li.fw-flash-message {
-    color: red;
+    color: summer;
     font-size: 4rem;
 }
 .msg_title h5 {
