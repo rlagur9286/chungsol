@@ -1,0 +1,22 @@
+{% load static %}
+<div class="social-login mt-4">
+  <div>
+    간편 로그인
+  </div>
+  <div>
+    <button>
+        <a href="#" onclick="naverLogin()">
+            <img src="{% static 'img/naver_login.png' %}"
+        </a>
+    </button>
+  </div>
+  <div>
+  <button>
+      <a href="{% url 'user:kakao-login' %}">
+          <img src="{% static 'img/kakao_login.png' %}"
+      </a>
+  </button>
+  </div>
+</div>
+
+<script src="{% static 'js/social_login.js' %}"></script>

@@ -15,14 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url
-from django.urls import path
+from django.urls import path, include
 from django.conf.urls.static import static
 from chungsol import settings
 from app import views
 
 urlpatterns = [
+    url(r'^$', views.render_page, name="home"),
     path('admin/', admin.site.urls),
-    url(r'^$', views.render_page),
+    path('auth/', include("user.urls")),
+    path('auth/', include('allauth.urls')), # 로깅 추가
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

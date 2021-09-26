@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+
+{% block page_title %}
+  Sign Up
+{% endblock page_title %}  
+
+{% block search-bar %}
+<div></div>
+{% endblock search-bar %}
+
+{% block content %}
+  <div class="background">
+    <div class="wrap">
+      <form action="{% url 'user:signup' %}" method="post" class="form" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form_input">
+          {{form.email}}
+        </div>
+        <div class="form_input">
+          {{form.password}}
+        </div>
+        <div class="form_input">
+          {{form.password1}}
+        </div>
+        <div class="form_input">
+          {{form.last_name}}
+        </div>
+        <div class="form_input">
+          {{form.first_name}}
+        </div>
+        <div class="birthdate rounded-br-xl rounded-bl-lg">
+          <label for="birthdate">Birthdate:</label>
+          <input type="date" id="birthdate" name="birthdate">
+        </div>
+        <button class="form_button">Submit</button>
+      </form>
+      {% include 'mixins/social_login.html' %}
+    </div>
+  </div>
+{% endblock content %}

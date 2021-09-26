@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block page_title %}
+  Login
+{% endblock page_title %}
+
+{% block search-bar %}
+<div></div>
+{% endblock search-bar %}
+
+{% block content %}
+  <div class="background">
+    <div class="wrap">
+      <form action="{% url 'user:login' %}" method="post" class="form">
+        {% csrf_token %}
+        <div class="form_input rounded-tl-lg rounded-tr-lg">
+          {{form.email.errors}}
+          {{form.email}}
+        </div>
+        <div class="form_input rounded-bl-lg rounded-br-lg">
+          {{form.password.errors}}
+          {{form.password}}
+        </div>
+        <button class="form_button">로그인</button>
+      </form>
+      {% include 'mixins/social_login.html' %}
+    </div>
+  </div>
+{% endblock content %}
