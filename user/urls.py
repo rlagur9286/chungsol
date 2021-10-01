@@ -16,9 +16,8 @@ urlpatterns = [
     ),
 
     path(
-        "login/naver/callback/",
-        views.naver_login_callback,
-        name="naver-callback",
+        "login/<provider>/callback/",
+        views.SocialLoginCallbackView.as_view(),
     ),
     path(
         "verify/<str:key>/",

@@ -33,7 +33,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q1y+9_q0_j!q9jq8q_3l(hv0*4+u5*bz=y+o0x^kqb#*bke7ie'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = '*'
 
@@ -89,6 +89,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'chungsol.wsgi.application'
 AUTH_USER_MODEL = 'user.User'
 LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Database
@@ -102,6 +103,7 @@ DATABASES = {
 }
 
 AUTHENTICATION_BACKENDS = [
+    'user.oauth.backends.NaverBackend',           # 네이버 인증백엔드
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend'
 ]
@@ -199,3 +201,5 @@ EMAIL_USE_TLS = True
 
 NAVER_CLIENT_ID = os.environ.get("NAVER_CLIENT_ID")
 NAVER_SECRET_KEY = os.environ.get("NAVER_SECRET_KEY")
+
+HOST_SITE= "http://localhost:8000" if DEBUG == True else "http://chungsol.pythonanywhere.com"

@@ -17,6 +17,7 @@ function naverLogin() {
         response_type: 'code',
         client_id: 'PyX_R5l9wMp0PK3DoN_q',
         redirect_uri: 'http://chungsol.pythonanywhere.com/auth/login/naver/callback/' + (next ? '?next=' + next : ''),
+        // redirect_uri: 'http://localhost:8000/auth/login/naver/callback/' + (next ? '?next=' + next : ''),
         state: document.querySelector('[name=csrfmiddlewaretoken]').value
     }
 
