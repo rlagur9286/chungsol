@@ -1,6 +1,7 @@
 /*Medium Screen*/
 
 @media (max-width: 1199px) {}
+
 @media (max-width: 991px) {
     #header .top_header .phone p {
         font-size: 11px;
@@ -60,7 +61,10 @@
         padding: 80px 15px;
     }
 }
+
+
 /* CHANGING BREAKPOINT OF BOOTSTRAP 3 NAVIGATION BAR*/
+
 @media (max-width: 999px) {
     .navbar-header {
         float: none;
@@ -71,7 +75,7 @@
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-collapse.collapse {
         display: none!important;
@@ -100,22 +104,22 @@
         border-bottom: 1px solid transparent;
         -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
-        width:auto;
-        float:none!important;
+        width: auto;
+        float: none!important;
     }
 }
+
 @media all and (max-width: 960px) and (min-width: 640px) {
     #header .top_header .address {
-        margin-right:-10px;
-        margin-left:-10px;
+        margin-right: -10px;
+        margin-left: -10px;
     }
     #header .top_header .zero_mp {
         padding-right: 0px;
         padding-left: 15px;
     }
-
     #header .top_header .phone p,
-    #header .top_header .address p{
+    #header .top_header .address p {
         font-size: 10px;
         padding-top: 7px;
     }
@@ -204,7 +208,7 @@
         text-transform: uppercase;
         font-weight: 700;
         padding-bottom: 25px;
-        font-family: 'Roboto Slab', serif !important;
+        font-family: 'Arial,Helvetica,sans-serif' !important;
         color: #222222;
     }
     #welcome {
@@ -383,7 +387,7 @@
     #testimonial .testimonial_author p {
         font-size: 11px;
     }
-    #testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
+    #testimonial #fade-quote-carousel.carousel .carousel-indicators>li {
         border: 1px solid;
         width: 8px;
         height: 8px;
@@ -497,6 +501,7 @@
         right: 5px;
     }
 }
+
 @media all and (max-width: 767px) {
     #header .top_header .address {
         margin-right: -10px;
@@ -574,7 +579,6 @@
     #slider .carousel-indicators li {
         width: 10px;
         height: 10px;
-
         margin: 0 3px;
     }
     #slider .carousel-indicators .active {
@@ -793,7 +797,7 @@
     #testimonial .testimonial_author p {
         font-size: 11px;
     }
-    #testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
+    #testimonial #fade-quote-carousel.carousel .carousel-indicators>li {
         border: 1px solid;
         width: 8px;
         height: 8px;
@@ -841,7 +845,7 @@
     }
     #purches h2.purches_title {
         font-size: 20px;
-        padding-top:0px;
+        padding-top: 0px;
     }
     #purches a.purches_btn {
         margin-top: -30px;
@@ -905,7 +909,8 @@
         right: 5px;
     }
 }
-@media all and (max-width: 640px){
+
+@media all and (max-width: 640px) {
     #slider .slider_text h2 {
         font-size: 18px;
         padding: 5px 0;
@@ -930,11 +935,8 @@
         top: 60px;
     }
 }
+
 @media all and (max-width: 480px) {
-
-
-
-
     #header .header_menu .custom_navbar-brand {
         padding-top: 8px;
     }
@@ -1133,7 +1135,6 @@
     #event a.event_btn {
         font-size: 10px;
     }
-
     #event .event_news {
         width: 100%;
         padding-top: 10px;
@@ -1176,7 +1177,7 @@
     #testimonial .testimonial_author p {
         font-size: 11px;
     }
-    #testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
+    #testimonial #fade-quote-carousel.carousel .carousel-indicators>li {
         border: 1px solid;
         width: 8px;
         height: 8px;
@@ -1285,6 +1286,7 @@
         right: 5px;
     }
 }
+
 @media all and (max-width: 320px) {
     #header .top_header .address {
         margin-right: -10px;
@@ -1525,7 +1527,6 @@
         width: 100%;
         padding-bottom: 5px;
     }
-
     #event .event_news_text h4 {
         font-size: 12px;
     }
@@ -1566,7 +1567,7 @@
     #testimonial .testimonial_author p {
         font-size: 11px;
     }
-    #testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
+    #testimonial #fade-quote-carousel.carousel .carousel-indicators>li {
         border: 1px solid;
         width: 8px;
         height: 8px;
@@ -1688,4 +1689,3 @@
         right: 5px;
     }
 }
-

@@ -312,9 +312,9 @@
                                 </button>
                             </div>
                             <div>
-                                <button href="" class="vol_cust_btn">
-                                    <a href="tel:1899-4266">카카오 상담신청</a><br>
-                                    <p style="font-size: 14px; font-weight: normal; font-family: NanumGothic, sans-serif">카카오 ID: 청솔수목장</p>
+                                <button onclick="location.href='javascript:void kakaoChat()'" class="vol_cust_btn">
+                                    카카오 상담신청<br>
+                                    <p style="font-size: 14px; font-weight: normal; font-family: Lato, sans-serif">카카오 ID: 청솔수목장</p>
                                 </button>
                             </div>
                         </div>
@@ -954,8 +954,6 @@
         </section>
         <!--End of contact-->
 
-
-
         <!--Start of footer-->
         <section id="footer">
             <div class="container">
@@ -989,8 +987,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-
-        <script>
+        <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script type='text/javascript'>
+            Kakao.init('8a85381779575e7fbf30f80873d0cc61');
+            function kakaoChat() {
+                Kakao.Channel.chat({
+                    channelPublicId: '_xcLqmC' // 카카오톡 채널 홈 URL에 명시된 ID를 입력합니다.
+                });
+            }
+        </script>
+        <script type='text/javascript'>
             //for counter up
             $('.counter').counterUp({
                 delay: 10,
